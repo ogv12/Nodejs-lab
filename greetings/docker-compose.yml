@@ -1,0 +1,5 @@
+version: "3.4"
+services:
+   node:
+      build: .
+      image: registry.example.com:5000/myprojectdockers/greetings
